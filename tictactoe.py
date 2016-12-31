@@ -7,7 +7,6 @@ def display():
 	print("\n")
 	return
 
-
 def rules():
 	result = ''
 	if a[0]=='o' and a[4]=='o' and a[8]=='o' or a[2]=='o' and a[4]=='o' and a[6]=='o' or a[1]=='o' and a[4]=='o' and a[7]=='o' or a[3]=='o' and a[4]=='o' and a[5]=='o' or a[0]=='o' and a[3]=='o' and a[6]=='o' or a[0]=='o' and a[1]=='o' and a[2]=='o' or a[2]=='o' and a[5]=='o' and a[8]=='o' or a[6]=='o' and a[7]=='o' and a[8]=='o':
@@ -35,8 +34,6 @@ def play_for_o():
 		play_for_o()
 	return rules_return
 
-
-
 def play_for_x():
 	rules_return = ''
 	input_x = int(input('x index:'))
@@ -57,11 +54,9 @@ def check(ans):
 	if ans == 'o' or ans == 'x':
 		return 1
 
-
 a = []
 for i in range(0,9):
 		a.append('')
-
 
 def tictactoe():
 	for i in range(0,9):
